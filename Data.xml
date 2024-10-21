@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<source>
+  <categories>
+    <category>
+      <id>1</id>
+      <name>Компьютеры</name>
+      <description>Все для компьютеров, включая комплектующие и периферийные устройства.</description>
+    </category>
+    <category>
+      <id>2</id>
+      <name>Игры</name>
+      <description>Игры для различных платформ: ПК, консоли и мобильные устройства.</description>
+    </category>
+    <category>
+      <id>3</id>
+      <name>Аксессуары</name>
+      <description>Аксессуары для телефонов, компьютеров и других гаджетов.</description>
+    </category>
+    <category>
+      <id>4</id>
+      <name>Книги</name>
+      <description>Широкий выбор книг различных жанров и авторов.</description>
+    </category>
+    <category>
+      <id>5</id>
+      <name>Одежда</name>
+      <description>Модная одежда для мужчин, женщин и детей.</description>
+    </category>
+  </categories>
+  <orders>
+    <order>
+      <id>1</id>
+      <productId>1</productId>
+      <quantity>5</quantity>
+      <orderDate>2024-10-20T14:11:54.5361884+05:00</orderDate>
+      <supplierId>2</supplierId>
+      <status>Delivered</status>
+    </order>
+    <order>
+      <id>2</id>
+      <productId>1</productId>
+      <quantity>4</quantity>
+      <orderDate>2024-11-20T14:11:54.5361884+05:00</orderDate>
+      <supplierId>2</supplierId>
+      <status>Delivered</status>
+    </order>
+  </orders>
+  <products>
+    <product>
+      <id>1</id>
+      <name>Геймерская мышь</name>
+      <description>Высокопроизводительная мышь с RGB-подсветкой и настраиваемым DPI.</description>
+      <quantity>50</quantity>
+      <price>49.99</price>
+      <categoryId>1</categoryId>
+    </product>
+    <product>
+      <id>2</id>
+      <name>Игровая клавиатура</name>
+      <description>Механическая клавиатура с подсветкой и программируемыми клавишами.</description>
+      <quantity>30</quantity>
+      <price>79.99</price>
+      <categoryId>1</categoryId>
+    </product>
+    <product>
+      <id>3</id>
+      <name>Консоль PlayStation 5</name>
+      <description>Новая игровая консоль от Sony с мощной графикой и эксклюзивными играми.</description>
+      <quantity>15</quantity>
+      <price>499.99</price>
+      <categoryId>2</categoryId>
+    </product>
+    <product>
+      <id>4</id>
+      <name>Наушники с шумоподавлением</name>
+      <description>Беспроводные наушники с активным шумоподавлением и качественным звуком.</description>
+      <quantity>20</quantity>
+      <price>199.99</price>
+      <categoryId>3</categoryId>
+    </product>
+    <product>
+      <id>5</id>
+      <name>Книга "Мир программирования"</name>
+      <description>Полное руководство по основам программирования на разных языках.</description>
+      <quantity>100</quantity>
+      <price>29.99</price>
+      <categoryId>4</categoryId>
+    </product>
+  </products>
+  <suppliers>
+    <supplier>
+      <id>1</id>
+      <name>Торговая компания А</name>
+      <contact_person>Иванов Иван</contact_person>
+      <email>ivanov@example.com</email>
+      <phone>+7 (999) 123-45-67</phone>
+    </supplier>
+    <supplier>
+      <id>2</id>
+      <name>Торговая компания </name>
+      <contact_person>Иванов </contact_person>
+      <email>ivanov@examplcom</email>
+      <phone>+7 (999) 123--67</phone>
+    </supplier>
+    <supplier>
+      <id>3</id>
+      <name>Торговая копания </name>
+      <contact_person>Иваов </contact_person>
+      <email>ivanov@exmplcom</email>
+      <phone>+7 (999) 23--67</phone>
+    </supplier>
+  </suppliers>
+</source>
